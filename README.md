@@ -9,8 +9,8 @@ This project processes natural language text files to:
 
 ## Features
 - Customizable preprocessing:
-  - Lowercasing, stopword removal, stemming, lemmatization.
-  - Filter tokens by minimum frequency.
+- Lowercasing, stopword removal, stemming, lemmatization.
+- Filter tokens by minimum frequency.
 - Generates token frequency visualizations.
 
 ## Usage
