@@ -15,20 +15,23 @@ This project processes natural language text files to:
 
 ## Usage
 1. Clone the repository:
-   ''''
+   
+   ````
    git clone https://github.com/dalla-AI/text-normalization-project.git
-   ''''
-   ''''
+   ````
+   ````
    cd text-normalization-project
-''''
-3. Install dependencies:
-''''
-pip install -r requirements.txt
-''''
+   ````
+2. Install dependencies:
+   
+   ````
+   pip install -r requirements.txt
+   ````
 3. Run the program:
-''''
-python src/normalize_text.py data/input/example_text.txt --lower --lemmatize --remove_stopwords --min_word_count 2 --output data/output/token_counts.txt
-''''
-(Edit min word count above of your choosing ex. 1, 2, 3, 4, etc.)
+
+   ````
+   python src/normalize_text.py data/input/example_text.txt --lower --lemmatize --remove_stopwords --min_word_count 2 --output data/output/token_counts.txt
+   ````
+   (Edit min word count above of your choosing ex. 1, 2, 3, 4, etc.)
 
 View results in data/output/
