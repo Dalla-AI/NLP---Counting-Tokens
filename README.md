@@ -13,7 +13,7 @@ This project processes natural language text files to:
 - Filter tokens by minimum frequency.
 - Generates token frequency visualizations.
 
-## Usage
+## Normalize Text and Token Counter Usage
 1. Clone the repository:
    
    ````
@@ -22,16 +22,28 @@ This project processes natural language text files to:
    ````
    cd text-normalization-project
    ````
+   
 2. Install dependencies:
    
    ````
    pip install -r requirements.txt
    ````
+   
 3. Run the program:
+   
 
-   ````
-   python src/normalize_text.py data/input/example_text.txt --lower --lemmatize --remove_stopwords --min_word_count 2 --output data/output/token_counts.txt
-   ````
+      For Token Counter:
+   
+         
+   Load "normalize_text.py" in your prefered IDE. Source "The Wonderful Wizard of OZ.txt" in the same directory and run program.
+         
+
+      For Text Normalization:
+   
+         
+         python src/normalize_text.py data/input/example_text.txt --lower --lemmatize --remove_stopwords --min_word_count 2 --output data/output/token_counts.txt
+         
+   
    (Edit min word count above of your choosing ex. 1, 2, 3, 4, etc.)
-
+   
 View results in data/output/
