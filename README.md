@@ -35,7 +35,7 @@ This project processes natural language text files to:
       For Token Counter:
    
          
-   Load "normalize_text.py" in your prefered IDE. Source "The Wonderful Wizard of OZ.txt" in the same directory and run program.
+   Load "normalize_text.py" in your prefered IDE. Source "The Wonderful Wizard of OZ.txt" (Or try your own txt file) in the same directory and run program.
          
 
       For Text Normalization:
