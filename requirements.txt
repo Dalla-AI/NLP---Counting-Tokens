@@ -1,0 +1,6 @@
+argparse
+re
+matplotlib.pyplot
+nltk
+numpy
+os
